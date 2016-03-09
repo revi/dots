@@ -1,0 +1,5 @@
+[user]
+	name = Yongmin Hong
+	email = revi@pobox.com
+[core]
+	autocrlf = true
