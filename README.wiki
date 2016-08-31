@@ -1,0 +1,11 @@
+== Dots ==
+
+The non-confidential config store. Of course, confidential config values are not reused across devices.
+
+== Dependencies ==
+
+* Git, obviously
+* Bash or zsh, while I haven't backed up zsh configs.
+** If bash, [https://github.com/Bash-it/bash-it bash-it].
+** If zsh, [http://ohmyz.sh/ oh my zsh].
+* gnupg or gnupg2.
