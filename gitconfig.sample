@@ -4,7 +4,7 @@
 	signingkey = BEFF197A
 [alias]
 	co = checkout
-	cm = commit -S
+	cm = commit -S -s
 	st = status
 	br = branch -v
 	fa = fetch --all
@@ -12,3 +12,4 @@
 	usync = rebase upstream/master
 	aal = add *
 	po = push origin master
+	amend = commit --amend -S -s
