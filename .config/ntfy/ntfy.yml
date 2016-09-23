@@ -1,0 +1,6 @@
+---
+backends:
+    - pushover
+    - telegram
+pushover:
+    user_key: [OMITTED]

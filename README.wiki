@@ -9,3 +9,4 @@ The non-confidential config store. Of course, confidential config values are not
 ** If bash, [https://github.com/Bash-it/bash-it bash-it].
 ** If zsh, [http://ohmyz.sh/ oh my zsh].
 * gnupg or gnupg2.
+* [https://github.com/dschep/ntfy ntfy] and <code>ntfy[telegram]</code>
