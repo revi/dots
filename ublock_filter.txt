@@ -1,0 +1,11 @@
+[Adblock Plus 2.0]
+! Homepage: https://github.com/revi/dot
+! License: https://github.com/revi/dot/blob/master/LICENSE
+! Title: uBlock Origin for revi
+! Expires: 4 days
+! Version: 20161122
+
+||namu.live^
+
+! End of self created list
+
