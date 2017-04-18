@@ -3,9 +3,12 @@
 ! License: https://github.com/revi/dot/blob/master/LICENSE
 ! Title: uBlock Origin for revi
 ! Expires: 4 days
-! Version: 20161122
+! Version: 20170411
 
 ||namu.live^
+||dcinside.com^
+||exitingsearch.info^
+||content.ad^
 
 ! End of self created list
 
