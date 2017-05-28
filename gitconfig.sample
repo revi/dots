@@ -2,3 +2,5 @@
 	name = Yongmin Hong
 	email = revi@pobox.com
 	signingkey = BEFF197A
+[include]
+	path = /home/revi/dev/dot/.gitaliases
