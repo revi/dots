@@ -1,0 +1,11 @@
+[alias]
+        co = checkout
+        cm = commit -S -s
+        st = status
+        br = branch -v
+        fa = fetch --all
+        graph = log --pretty=format:\"%h %s\" --graph
+        usync = rebase upstream/master
+        aal = add *
+        po = push origin master
+        amend = commit --amend -S -s
