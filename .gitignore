@@ -1,0 +1,8 @@
+## This is a real gitignore for the repository and not for configuration!!!
+## If you need to use gitignore configuration, see gitignore.sample!!
+/npp/*
+!/npp/config.xml
+!/npp/contextMenu.xml
+!/npp/langs.xml
+!/npp/shortcuts.xml
+!/npp/stylers.xml
