@@ -1,0 +1,12 @@
+== Deploying dot files ==
+
+1. <code>git clone https://gitlab.com/revi/dots</code>.
+2. <code>cd dots</code>
+3. <code>cp gitconfig.sample ~/.gitconfig</code>
+4. <code>cp .gitaliases ~/.gitaliases</code>
+
+=== If this device is gpg device ===
+
+1. Install gnupg2 and gnupg.
+2. Import the private key and public key. Importing keyring files are sufficient.
+3. <code>cp .gpg.conf ~/.gnupg/gpg.conf</code>.
