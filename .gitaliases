@@ -1,6 +1,6 @@
 [alias]
         co = checkout
-        cm = commit -S -s
+        cm = commit -s
         st = status
         br = branch -v
         fa = fetch --all
@@ -8,4 +8,6 @@
         usync = rebase upstream/master
         aal = add *
         po = push origin master
-        amend = commit --amend -S -s
+        amend = commit --amend -s
+	cmt = commit -S -s
+	amends = commit --amend -S -s
