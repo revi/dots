@@ -2,5 +2,7 @@
 	name = Yongmin Hong
 	email = revi@pobox.com
 	signingkey = BEFF197A
+[gitreview]
+	username = revi
 [include]
 	path = /home/revi/dots/.gitaliases
