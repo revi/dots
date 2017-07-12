@@ -5,9 +5,13 @@
         br = branch -v
         fa = fetch --all
         graph = log --pretty=format:\"%h %s\" --graph
+	fo = fetch origin
         usync = rebase upstream/master
+	osync = rebase origin/master
         aal = add *
         po = push origin master
         amend = commit --amend -s
 	cmt = commit -S -s
 	amends = commit --amend -S -s
+	acmt = commit -a -S -s
+	acm = commit -a -s
