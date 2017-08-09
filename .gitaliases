@@ -15,3 +15,4 @@
 	amends = commit --amend -S -s
 	acmt = commit -a -S -s
 	acm = commit -a -s
+	fup = fetch upstream
