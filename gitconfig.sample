@@ -4,5 +4,7 @@
 	signingkey = BEFF197A
 [gitreview]
 	username = revi
+[core]
+	editor = nano
 [include]
 	path = /home/revi/dots/.gitaliases
