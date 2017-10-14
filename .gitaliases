@@ -16,3 +16,5 @@
 	acmt = commit -a -S -s
 	acm = commit -a -s
 	fup = fetch upstream
+	com = checkout master
+	por = push origin
