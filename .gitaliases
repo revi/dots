@@ -18,3 +18,4 @@
 	fup = fetch upstream
 	com = checkout master
 	por = push origin
+	cob = checkout -b
