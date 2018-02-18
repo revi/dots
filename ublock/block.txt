@@ -3,7 +3,7 @@
 ! License: https://gitlab.com/revi/dots/blob/master/LICENSE
 ! Title: uBlock Origin for revi
 ! Expires: 4 days
-! Version: 20170430
+! Version: 20180218
 
 ||namu.live^
 ||dcinside.com^
@@ -11,6 +11,8 @@
 ||content.ad^
 ||huffingtonpost.kr^
 ||ppss.kr^
+||coin-hive.com
+||fetchindia.com
 
 ! End of self created list
 
