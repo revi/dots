@@ -12,3 +12,8 @@
         tool = default-difftool
 [difftool "default-difftool"]
         cmd = code --wait --diff $LOCAL $REMOTE
+[sendemail]
+	smtpserver = smtp.pobox.com
+	smtpuser = revi@pobox.com
+	smtpencryption = tls
+	smtpserverport = 587
