@@ -12,6 +12,11 @@
         tool = default-difftool
 [difftool "default-difftool"]
         cmd = code --wait --diff $LOCAL $REMOTE
+[filter "lfs"]
+        clean = git-lfs clean -- %f
+        smudge = git-lfs smudge -- %f
+        process = git-lfs filter-process
+        required = true
 [sendemail]
 	smtpserver = smtp.pobox.com
 	smtpuser = revi@pobox.com
