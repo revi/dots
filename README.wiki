@@ -2,6 +2,8 @@
 
 The non-confidential config store. Of course, confidential config values are not reused across devices.
 
+Other related documentations are available at [https://www.notion.so/revinim/Setup-02b636b665364d2297f1537e3611a6e2 Notion].
+
 == Dependencies ==
 
 * Git, obviously
