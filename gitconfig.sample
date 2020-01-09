@@ -7,7 +7,7 @@
 [core]
 	editor = nano
 [include]
-	path = /home/revi/dots/.gitaliases
+	path = ~/dots/.gitaliases
 [diff]
         tool = default-difftool
 [difftool "default-difftool"]
