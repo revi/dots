@@ -1,0 +1,30 @@
+{
+    "sync.gist": "6f8c8c173081ae98b229f3602d739589",
+    "sync.lastUpload": "2018-08-27T14:10:24.702Z",
+    "sync.autoDownload": false,
+    "sync.autoUpload": true,
+    "sync.lastDownload": "2017-04-17T13:40:16.252Z",
+    "sync.version": 262,
+    "sync.showSummary": true,
+    "sync.forceDownload": false,
+    "sync.anonymousGist": false,
+    "sync.host": "",
+    "sync.pathPrefix": "",
+    "sync.quietSync": false,
+    "sync.askGistName": false,
+    // GPG를 사용한 커밋 서명을 사용하도록 설정합니다.
+    "git.enableCommitSigning": true,
+    "files.autoSave": "afterDelay",
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": true,
+    "[terraform]": {
+        "editor.insertSpaces": false
+    },
+    "sync.removeExtensions": true,
+    "sync.syncExtensions": true,
+    "materialTheme.autoApplyIcons": true,
+    "workbench.colorTheme": "Material Theme",
+    "workbench.iconTheme": "eq-material-theme-icons",
+    "python.pythonPath": "/usr/local/bin/python3",
+    "sync.forceUpload": true,
+}
