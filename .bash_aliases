@@ -10,4 +10,4 @@ alias gpgrefresh='gpg --refresh-keys'
 alias la='ls -a'
 # PHP stuff
 alias pear='$HOME/.pear/bin/pear'
-export phpcs='$HOME/.composer/vendor/bin/phpcs'
+alias phpcs='$HOME/.composer/vendor/bin/phpcs'
