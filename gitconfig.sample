@@ -22,3 +22,6 @@
 	smtpuser = revi@pobox.com
 	smtpencryption = tls
 	smtpserverport = 587
+[init]
+	defaultBranch = master
+	
