@@ -113,6 +113,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
+export LANG="en_US.UTF-8"
 
 # Don't check mail when opening terminal.
 unset MAILCHECK
