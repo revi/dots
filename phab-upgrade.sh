@@ -1,15 +1,16 @@
 #!/bin/bash
-cd /var/www/html/phabricator
-sudo ./bin/phd stop
+cd /var/www/phab/phabricator
+sudo -u www-data ./bin/phd stop
 sudo service apache2 stop
-sudo git checkout stable
-sudo git pull origin stable
+sudo -u www-data git checkout stable
+sudo -u www-data git pull origin stable
 cd ../libphutil
-sudo git checkout stable
-sudo git pull origin stable
+sudo -u www-data git checkout stable
+sudo -u www-data git pull origin stable
 cd ../arcanist
-sudo git checkout stable
-sudo git pull origin stable
+sudo -u www-data git checkout stable
+sudo -u www-data git pull origin stable
 cd ../phabricator
-sudo ./bin/phd start
+sudo -u www-data ./bin/storage upgrade
+sudo -u www-data ./bin/phd start
 sudo service apache2 start
