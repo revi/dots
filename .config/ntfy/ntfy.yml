@@ -1,6 +1,11 @@
 ---
 backends:
-    - pushover
-    - telegram
+  - pushover
+  - matrix
 pushover:
-    user_key: [OMITTED]
+  user_key: [REDACTED]
+matrix:
+  url: "https://matrix.revi.xyz"
+  roomId: "#devops:revi.xyz"
+  userId: "REDACTED"
+  password: "REDACTED"
