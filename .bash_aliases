@@ -15,5 +15,5 @@ alias phpcs='$HOME/.composer/vendor/bin/phpcs'
 alias py='python3'
 # Python2 as py2
 alias py2='python'
-# tailscale (temporary)
-alias tailscale='$HOME/go/bin/tailscale'
+# tailscale (just for my old laptop - locally uncheck this.)
+# alias tailscale='$HOME/go/bin/tailscale'

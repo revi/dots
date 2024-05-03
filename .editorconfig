@@ -3,8 +3,8 @@
 root = true
 
 [*]
-charset = utf-8
 end_of_line = lf
+charset = utf-8
 indent_size = tab
 indent_style = tab
 insert_final_newline = true
@@ -12,25 +12,25 @@ tab_width = 4
 trim_trailing_whitespace = true
 
 [*.md]
-indent_style = space
 indent_size = 2
+indent_style = space
 
 # Tabs may not be valid YAML
 # @see https://yaml.org/spec/1.2/spec.html#id2777534
-[*.{yml,yaml}]
-indent_style = space
+[*.{sh,yml,yaml}]
 indent_size = 2
+indent_style = space
 
 # yaml-lint configuration
 # YAML files should be indented with spaces, which .yamllint is
 [.yamllint]
-indent_style = space
 indent_size = 2
+indent_style = space
 
-[*.sample]
-indent_style = space
+[default.git*]
 indent_size = 2
+indent_style = space
 
 [.git/**]
-indent_style = space
 indent_size = 2
+indent_style = space

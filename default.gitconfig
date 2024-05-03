@@ -1,0 +1,26 @@
+[user]
+  name = Yongmin Hong
+	email = revi@omglol.email
+	signingkey = EA100E94
+[gitreview]
+  username = revi
+[core]
+  editor = nano
+[include]
+  path = ~/dots/.gitaliases
+[diff]
+	tool = default-difftool
+[difftool "default-difftool"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[sendemail]
+	smtpserver = smtp.fastmail.com
+	smtpuser = revi@omglol.email
+  smtpencryption = tls
+  smtpserverport = 587
+[init]
+  defaultBranch = master
