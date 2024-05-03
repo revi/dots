@@ -1,0 +1,36 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = tab
+indent_style = tab
+insert_final_newline = true
+tab_width = 4
+trim_trailing_whitespace = true
+
+[*.md]
+indent_style = space
+indent_size = 2
+
+# Tabs may not be valid YAML
+# @see https://yaml.org/spec/1.2/spec.html#id2777534
+[*.{yml,yaml}]
+indent_style = space
+indent_size = 2
+
+# yaml-lint configuration
+# YAML files should be indented with spaces, which .yamllint is
+[.yamllint]
+indent_style = space
+indent_size = 2
+
+[*.sample]
+indent_style = space
+indent_size = 2
+
+[.git/**]
+indent_style = space
+indent_size = 2
