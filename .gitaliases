@@ -1,21 +1,30 @@
 [alias]
-	co = checkout
-	cm = commit -s
-	st = status
-	br = branch -v
-	fa = fetch --all
-	graph = log --pretty=format:\"%h %s\" --graph
-	fo = fetch origin
-	usync = rebase upstream/master
-	osync = rebase origin/master
-	aal = add *
-	po = push origin master
-	amend = commit --amend -s
-	cmt = commit -S -s
-	amends = commit --amend -S -s
-	acmt = commit -a -S -s
-	acm = commit -a -s
-	fup = fetch upstream
-	com = checkout master
-	por = push origin
-	cob = checkout -b
+  co = checkout
+  cm = commit -s
+  st = status
+  br = branch -v
+  fa = fetch --all
+  graph = log --pretty=format:\"%h %s\" --graph
+  fo = fetch origin
+  usync = rebase upstream/master
+  usyncm = rebase upstream/main
+  osync = rebase origin/master
+  osyncm = rebase origin/main
+  aal = add *
+  po = push origin master
+  pom = push origin main
+  amend = commit --amend -s
+  cmt = commit -S -s
+  amends = commit --amend -S -s
+  acmt = commit -a -S -s
+  acm = commit -a -s
+  fup = fetch upstream
+  com = checkout master
+  comm = checkout main
+  por = push origin
+  cob = checkout -b
+# below are non-git command, signified via `!` in the comment
+# https://issuetracker.revi.xyz/u/gitalias
+  arcdiff = !arc diff
+  arcpatch = !arc patch
+  arcland = !arc land

@@ -31,6 +31,10 @@ indent_style = space
 indent_size = 2
 indent_style = space
 
+[.git*]
+indent_size = 2
+indent_style = space
+
 [.git/**]
 indent_size = 2
 indent_style = space
