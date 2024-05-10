@@ -1,3 +1,5 @@
+# Copyright (C) 2017 Hong Yongmin <https://revi.xyz> 
+# SPDX-License-Identifier: Apache-2.0
 [alias]
   co = checkout
   cm = commit -s
@@ -31,6 +33,7 @@
   cob = checkout -b
 # below are non-git command, signified via `!` in the comment
 # https://issuetracker.revi.xyz/u/gitalias
-  arcdiff = !arc diff
-  arcpatch = !arc patch
-  arcland = !arc land
+  arcd = !arc diff
+  arcl = !arc land
+  arcp = !arc patch
+  arcw = !arc work
