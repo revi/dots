@@ -1,3 +1,5 @@
+# Copyright (C) 2016 Yongmin Hong <https://revi.xyz> 
+# SPDX-License-Identifier: Apache-2.0
 [user]
   name = Yongmin Hong
   email = revi@omglol.email
@@ -24,3 +26,5 @@
   smtpserverport = 587
 [init]
   defaultBranch = master
+[tag]
+  forceSignAnnotated = true
