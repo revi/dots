@@ -6,21 +6,27 @@
   fa = fetch --all
   graph = log --pretty=format:\"%h %s\" --graph
   fo = fetch origin
-  usync = rebase upstream/master
-  usyncm = rebase upstream/main
-  osync = rebase origin/master
+# some project uses `master` and some uses `main` for the default.
+# since their first two letters are both ma, use the last char.
+  usync = !echo 'ERROR: use usyncr for master, and usyncn for main.'
+  usyncr = rebase upstream/master
+  usyncn = rebase upstream/main
+  osync = !echo 'ERROR: use osyncr for master, and osyncm for main.'
+  osyncr = rebase origin/master
   osyncm = rebase origin/main
   aal = add *
-  po = push origin master
-  pom = push origin main
+  po= !echo 'ERROR: use por for master, and pon for main.'
+  por = push origin master
+  pon = push origin main
   amend = commit --amend -s
   cmt = commit -S -s
   amends = commit --amend -S -s
   acmt = commit -a -S -s
   acm = commit -a -s
   fup = fetch upstream
-  com = checkout master
-  comm = checkout main
+  com = !echo 'ERROR: use cor for master, and con for main.'
+  comr = checkout master
+  comn = checkout main
   por = push origin
   cob = checkout -b
 # below are non-git command, signified via `!` in the comment
