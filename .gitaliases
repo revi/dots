@@ -20,16 +20,17 @@
   po= !echo 'ERROR: use por for master, and pon for main.'
   por = push origin master
   pon = push origin main
-  amend = commit --amend -s
+  amend = commit --amend
+  amends = commit --amend -s
   cmt = commit -S -s
-  amends = commit --amend -S -s
+  amendss = commit --amend -S -s
   acmt = commit -a -S -s
   acm = commit -a -s
   fup = fetch upstream
   com = !echo 'ERROR: use cor for master, and con for main.'
   comr = checkout master
   comn = checkout main
-  por = push origin
+  pog = push origin
   cob = checkout -b
 # below are non-git command, signified via `!` in the comment
 # https://issuetracker.revi.xyz/u/gitalias
