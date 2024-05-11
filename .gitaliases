@@ -35,6 +35,10 @@
 # below are non-git command, signified via `!` in the comment
 # https://issuetracker.revi.xyz/u/gitalias
   arcd = !arc diff
+  a-d = !arc diff
   arcl = !arc land
+  a-l = !arc land
   arcp = !arc patch
+  a-p = !arc patch
   arcw = !arc work
+  a-w = !arc work
