@@ -1,0 +1,22 @@
+---
+name: YAML Lint
+on:
+  push:
+    paths:
+      - '**.yml'
+      - '**.yaml'
+      - '.yamllint'
+  pull_request:
+    paths:
+      - '**.yml'
+      - '**.yaml'
+      - '.yamllint'
+  workflow_dispatch:
+
+jobs:
+  lint-everything:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yaml-lint
+        uses: ibiqlik/action-yamllint@v3

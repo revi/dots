@@ -31,7 +31,7 @@ indent_style = space
 indent_size = 2
 indent_style = space
 
-[.git*]
+[.{arc,git}*]
 indent_size = 2
 indent_style = space
 

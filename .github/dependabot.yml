@@ -1,0 +1,33 @@
+# https://issuetracker.revi.xyz/u/dependabot
+# for documentation link
+
+version: 2
+updates:
+
+  # Maintain dependencies for GitHub Actions
+  - package-ecosystem: "github-actions"
+    assignees:
+      - "revi"
+    # Workflow files stored in the default location of `.github/workflows`.
+    # You don't need to specify `/.github/workflows` for `directory`.
+    # You can use `directory: "/"`.
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "10:00"
+      timezone: "Asia/Seoul"
+    target-branch: "master"
+
+  # Maintain dependencies for `npm` @ rootdir
+  - package-ecosystem: "npm"
+    assignees:
+      - "revi"
+    # npm package dependencies in the location of `go-revi-xyz/package.json`.
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "10:00"
+      timezone: "Asia/Seoul"
+    target-branch: "master"
