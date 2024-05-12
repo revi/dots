@@ -1,4 +1,4 @@
-# Copyright (C) 2016 Yongmin Hong <https://revi.xyz> 
+# Copyright (C) 2016 Hong Yongmin <https://revi.xyz> 
 # SPDX-License-Identifier: Apache-2.0
 [user]
   name = Yongmin Hong
@@ -10,6 +10,8 @@
   editor = nano
 [include]
   path = ~/.gitaliases
+[credential]
+  helper = 'store'
 [diff]
   tool = default-difftool
 [difftool "default-difftool"]
