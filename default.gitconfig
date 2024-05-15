@@ -8,6 +8,7 @@
   username = revi
 [core]
   editor = nano
+  quotepath = false
 [include]
   path = ~/.gitaliases
 [credential]
