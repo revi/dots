@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 [alias]
   co = checkout
-  cm = commit -s
+  cm = commit
   st = status
   br = branch -v
   fa = fetch --all
@@ -21,11 +21,10 @@
   por = push origin master
   pon = push origin main
   amend = commit --amend
-  amends = commit --amend -s
-  cmt = commit -S -s
-  amendss = commit --amend -S -s
-  acmt = commit -a -S -s
-  acm = commit -a -s
+  cmt = commit -S
+  amends = commit --amend -S
+  acmt = commit -a -S
+  acm = commit -a
   fup = fetch upstream
   com = !echo 'ERROR: use cor for master, and con for main.'
   comr = checkout master
