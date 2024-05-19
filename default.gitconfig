@@ -23,10 +23,12 @@
   process = git-lfs filter-process
   required = true
 [sendemail]
+  from = 'Yongmin Hong <revi@omglol.email>'
   smtpserver = smtp.fastmail.com
   smtpuser = revi@omglol.email
-  smtpencryption = tls
-  smtpserverport = 587
+  smtpencryption = ssl
+  smtpserverport = 465
+  smtpAuth = 'PLAIN'
 [init]
   defaultBranch = master
 [tag]
