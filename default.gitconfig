@@ -35,3 +35,5 @@
   defaultBranch = master
 [tag]
   forceSignAnnotated = true
+[rerere]
+  enabled = true
