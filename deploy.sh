@@ -15,10 +15,16 @@
 
 echo 'Now starting deploy script'
 
-# TODO: make it emit last commit hash, date and commit title
+git show --minimal --no-patch --pretty=oneline
 
 echo 'Now copying git defaults'
+rm -rf ~/.gitignore
+echo 'moving .gitignore'
 cp default.gitignore ~/.gitignore
+rm -rf ~/.gitconfig
+echo 'moving .gitconfig'
 cp default.gitconfig ~/.gitconfig
+rm -rf ~/.gitaliases
+echo 'moving .gitaliases'
 cp .gitaliases ~/.gitaliases
-
+echo 'Done!'
