@@ -22,8 +22,6 @@
   smudge = git-lfs smudge -- %f
   process = git-lfs filter-process
   required = true
-[format]
-  signOff = true
 [sendemail]
   from = 'Yongmin Hong <revi@omglol.email>'
   smtpserver = smtp.fastmail.com
