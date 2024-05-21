@@ -31,6 +31,7 @@
   comn = checkout main
   pog = push origin
   cob = checkout -b
+  count = count-objects -vH
 # below are non-git command, signified via `!` in the comment
 # https://issuetracker.revi.xyz/u/gitalias
   arcd = !arc diff
