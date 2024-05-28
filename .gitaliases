@@ -1,38 +1,38 @@
-# Copyright (C) 2017 Hong Yongmin <https://revi.xyz> 
+# Copyright (C) 2017 Hong Yongmin <https://revi.xyz>
 # SPDX-License-Identifier: Apache-2.0
 [alias]
-  co = checkout
-  cm = commit -s
-  st = status
-  br = branch -v
-  fa = fetch --all
-  graph = log --pretty=format:\"%h %s\" --graph
-  fo = fetch origin
 # some project uses `master` and some uses `main` for the default.
 # since their first two letters are both ma, use the last char.
-  usync = !echo 'ERROR: use usyncr for master, and usyncn for main.'
-  usyncr = rebase upstream/master
-  usyncn = rebase upstream/main
-  osync = !echo 'ERROR: use osyncr for master, and osyncm for main.'
-  osyncr = rebase origin/master
-  osyncm = rebase origin/main
-  aal = add *
-  po= !echo 'ERROR: use por for master, and pon for main.'
-  por = push origin master
-  pon = push origin main
-  amend = commit --amend
-  amends = commit --amend -s
-  cmt = commit -S -s
-  amendss = commit --amend -S -s
-  acmt = commit -a -S -s
   acm = commit -a -s
-  fup = fetch upstream
-  com = !echo 'ERROR: use cor for master, and con for main.'
-  comr = checkout master
-  comn = checkout main
-  pog = push origin
+  aal = add *
+  amend = commit --amend
+  amendss = commit --amend -S -s
+  amends = commit --amend -s
+  br = branch -v
+  brd = branch -d
+  brD = branch -D
   cob = checkout -b
+  co = checkout
+  com = !echo 'ERROR: use cor for master, and con for main.'
+  comn = checkout main
+  comr = checkout master
+  cm = commit -s
+  cmt = commit -S -s
   count = count-objects -vH
+  fa = fetch --all
+  fup = fetch upstream
+  fo = fetch origin
+  graph = log --pretty=format:\"%h %s\" --graph
+  osync = !echo 'ERROR: use osyncr for master, and osyncm for main.'
+  osyncn = rebase origin/main
+  osyncr = rebase origin/master
+  po= !echo 'ERROR: use por for master, and pon for main.'
+  pon = push origin main
+  por = push origin master
+  st = status
+  usync = !echo 'ERROR: use usyncr for master, and usyncn for main.'
+  usyncn = rebase upstream/main
+  usyncr = rebase upstream/master
 # below are non-git command, signified via `!` in the comment
 # https://issuetracker.revi.xyz/u/gitalias
   arcd = !arc diff

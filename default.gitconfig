@@ -1,16 +1,14 @@
-# Copyright (C) 2016 Hong Yongmin <https://revi.xyz> 
+# Copyright (C) 2016 Hong Yongmin <https://revi.xyz>
 # SPDX-License-Identifier: Apache-2.0
 [user]
   name = Yongmin Hong
   email = revi@omglol.email
   signingkey = EA100E94
-[gitreview]
-  username = revi
+[commit]
+  gpgSign = true
 [core]
   editor = nano
   quotepath = false
-[include]
-  path = ~/.gitaliases
 [credential]
   helper = 'store'
 [diff]
@@ -22,6 +20,16 @@
   smudge = git-lfs smudge -- %f
   process = git-lfs filter-process
   required = true
+[gitreview]
+  username = revi
+[include]
+  path = ~/.gitaliases
+[init]
+  defaultBranch = master
+[pretty]
+  show = fuller
+[rerere]
+  enabled = true
 [sendemail]
   from = 'Yongmin Hong <revi@omglol.email>'
   smtpserver = smtp.fastmail.com
@@ -29,9 +37,5 @@
   smtpencryption = ssl
   smtpserverport = 465
   smtpAuth = 'PLAIN'
-[init]
-  defaultBranch = master
 [tag]
   forceSignAnnotated = true
-[rerere]
-  enabled = true

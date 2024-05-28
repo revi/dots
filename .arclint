@@ -7,16 +7,13 @@
     "chmod": {
       "type": "chmod"
     },
-    "filename": {
-      "type": "filename"
-    },
     "json": {
       "type": "json",
       "include": [
         "(^\\.arcconfig$)",
         "(^\\.arclint$)",
         "(^\\.arcunit$)",
-        "(^\\.json$)"
+        "(\\.json$)"
       ]
     },
     "merge-conflict": {
@@ -30,7 +27,13 @@
     },
     "text": {
       "type": "text",
-      "text.max-line-length": 80
+      "text.max-line-length": 80,
+      "severity": {
+        "1": "advice",
+        "2": "advice",
+        "3": "advice",
+        "5": "disabled"
+      }
     }
   }
 }
