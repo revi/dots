@@ -3,31 +3,30 @@
 
 version: 2
 updates:
-
   # Maintain dependencies for GitHub Actions
-  - package-ecosystem: "github-actions"
+  - package-ecosystem: 'github-actions'
     assignees:
-      - "revi"
+      - 'revi'
     # Workflow files stored in the default location of `.github/workflows`.
     # You don't need to specify `/.github/workflows` for `directory`.
     # You can use `directory: "/"`.
-    directory: "/"
+    directory: '/'
     schedule:
-      interval: "weekly"
-      day: "monday"
-      time: "10:00"
-      timezone: "Asia/Seoul"
-    target-branch: "master"
+      interval: 'weekly'
+      day: 'tuesday'
+      time: '10:00'
+      timezone: 'Asia/Seoul'
+    target-branch: 'master'
 
   # Maintain dependencies for `npm` @ rootdir
-  - package-ecosystem: "npm"
+  - package-ecosystem: 'npm'
     assignees:
-      - "revi"
-    # npm package dependencies in the location of `go-revi-xyz/package.json`.
-    directory: "/"
+      - 'revi'
+    # npm package dependencies in the location of `package.json`.
+    directory: '/'
     schedule:
-      interval: "weekly"
-      day: "monday"
-      time: "10:00"
-      timezone: "Asia/Seoul"
-    target-branch: "master"
+      interval: 'weekly'
+      day: 'tuesday'
+      time: '10:00'
+      timezone: 'Asia/Seoul'
+    target-branch: 'master'

@@ -10,7 +10,7 @@ Other related documentations are available at [reviwiki](https://revi.wiki/wiki/
 
 ## Dependencies
 
-* Git, obviously
-* Bash or zsh, while I haven't backed up zsh configs.
-* gnupg or gnupg2.
-* [ntfy](https://github.com/dschep/ntfy) and ``ntfy[telegram]`.
+- Git, obviously
+- Bash or zsh, while I haven't backed up zsh configs.
+- gnupg or gnupg2.
+- [ntfy](https://github.com/dschep/ntfy) and ``ntfy[telegram]`.

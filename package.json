@@ -4,5 +4,9 @@
   },
   "devDependencies": {
     "prettier": "^3.3.1"
+  },
+  "scripts": {
+    "pcheck": "prettier --check .",
+    "pwrite": "prettier --write ."
   }
 }
