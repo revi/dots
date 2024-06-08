@@ -30,6 +30,7 @@
   show = fuller
 [rerere]
   enabled = true
+  autoUpdate = true
 [sendemail]
   from = 'Yongmin Hong <revi@omglol.email>'
   smtpserver = smtp.fastmail.com

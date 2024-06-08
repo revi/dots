@@ -2,26 +2,36 @@
 # SPDX-License-Identifier: Apache-2.0
 [alias]
 # some project uses `master` and some uses `main` for the default.
-# since their first two letters are both ma, use the last char.
-  acm = commit -a -s
+# since their first two letters are both ma, use the last char
+# which is either `r` for master or `n` for main.
+# a-d
+# a-l
+# a-p
+# a-w
   aal = add *
+  acm = commit -a -s
   amend = commit --amend
-  amendss = commit --amend -S -s
   amends = commit --amend -s
+  amendss = commit --amend -S -s
+# arcd
+# arcl
+# arcp
+# arcw
   br = branch -v
   brd = branch -d
   brD = branch -D
-  cob = checkout -b
+  cm = commit -s
+  cmt = commit -S -s
   co = checkout
+  cob = checkout -b
   com = !echo 'ERROR: use cor for master, and con for main.'
   comn = checkout main
   comr = checkout master
-  cm = commit -s
-  cmt = commit -S -s
   count = count-objects -vH
+  diffs = diff --staged
   fa = fetch --all
-  fup = fetch upstream
   fo = fetch origin
+  fup = fetch upstream
   graph = log --pretty=format:\"%h %s\" --graph
   osync = !echo 'ERROR: use osyncr for master, and osyncm for main.'
   osyncn = rebase origin/main
@@ -29,17 +39,19 @@
   po= !echo 'ERROR: use por for master, and pon for main.'
   pon = push origin main
   por = push origin master
+  prod = !git checkout prod && git rebase origin/master && git push origin prod && git checkout master
   st = status
+  staash = stash -a
   usync = !echo 'ERROR: use usyncr for master, and usyncn for main.'
   usyncn = rebase upstream/main
   usyncr = rebase upstream/master
 # below are non-git command, signified via `!` in the comment
 # https://issuetracker.revi.xyz/u/gitalias
-  arcd = !arc diff
   a-d = !arc diff
-  arcl = !arc land
+  arcd = !arc diff
   a-l = !arc land
-  arcp = !arc patch
+  arcl = !arc land
   a-p = !arc patch
-  arcw = !arc work
+  arcp = !arc patch
   a-w = !arc work
+  arcw = !arc work

@@ -29,7 +29,7 @@
       "type": "text",
       "text.max-line-length": 80,
       "severity": {
-        "1": "advice",
+        "1": "autofix",
         "2": "advice",
         "3": "advice",
         "5": "disabled"

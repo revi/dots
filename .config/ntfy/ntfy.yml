@@ -4,8 +4,3 @@ backends:
   - matrix
 pushover:
   user_key: [REDACTED]
-matrix:
-  url: "https://matrix.revi.xyz"
-  roomId: "#devops:revi.xyz"
-  userId: "REDACTED"
-  password: "REDACTED"
