@@ -1,0 +1,26 @@
+*        text=auto
+*.sh     text=auto
+
+*.asc    binary
+*.gif    binary
+*.jpg    binary
+*.jpeg   binary
+*.mp3    binary
+*.mp4    binary
+*.png    binary
+*.webm   binary
+*.webp   binary
+*.woff2  binary
+
+*.css    diff=css
+*.go     diff=golang
+*.html   diff=html
+*.java   diff=java
+*.kt     diff=kotlin
+*.md     diff=markdown
+*.mdx    diff=markdown
+*.php    diff=php
+*.py     diff=python
+*.rb     diff=ruby
+*.rs     diff=rust
+*.sh     diff=bash
