@@ -16,7 +16,8 @@
         "(\\.js$)",
         "(\\.jsx$)",
         "(\\.mjs$)"
-      ]
+      ],
+      "jshint.jshintrc": ".jshint.json"
     },
     "json": {
       "type": "json",
@@ -24,7 +25,8 @@
         "(^.arcconfig$)",
         "(^.arclint$)",
         "(^.arcunit$)",
-        "(\\.json$)"
+        "(\\.json$)",
+        "(\\.sublime-settings$)"
       ]
     },
     "merge-conflict": {
