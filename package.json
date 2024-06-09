@@ -6,7 +6,7 @@
     "prettier": "^3.3.1"
   },
   "scripts": {
-    "pcheck": "prettier --check .",
-    "pwrite": "prettier --write ."
+    "p:c": "prettier --check",
+    "p:w": "prettier --write"
   }
 }

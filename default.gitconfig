@@ -4,6 +4,11 @@
   name = Yongmin Hong
   email = revi@omglol.email
   signingkey = EA100E94
+# Don't alphabetize [user] section.
+[branch]
+  sort = committerdate
+[color]
+  ui = auto
 [commit]
   gpgSign = true
 [core]
@@ -21,12 +26,16 @@
   smudge = git-lfs smudge -- %f
   process = git-lfs filter-process
   required = true
+[format]
+  pretty = fuller
 [gitreview]
   username = revi
 [include]
   path = ~/.gitaliases
 [init]
   defaultBranch = master
+[log]
+  date = iso8601
 [pretty]
   show = fuller
 [rerere]
