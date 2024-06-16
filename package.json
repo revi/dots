@@ -1,7 +1,22 @@
 {
+  "$schema": "https://json.schemastore.org/package.json",
   "devDependencies": {
+    "@eslint/js": "^9.5.0",
+    "@revi/eslint-config": "^0.0.2",
+    "@revi/prettier-config": "^0.0.2",
+    "eslint": "^9.5.0",
+    "eslint-config-prettier": "^9.1.0",
     "jshint": "^2.13.6",
-    "prettier": "^3.3.1"
+    "prettier": "^3.3.2"
+  },
+  "prettier": "@revi/prettier-config",
+  "name": "@revi/dots",
+  "private": true,
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Yongmin Hong",
+    "url": "https://revi.xyz",
+    "email": "revi@omglol.email"
   },
   "scripts": {
     "p:c": "prettier --check",

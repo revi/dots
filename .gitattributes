@@ -12,14 +12,18 @@
 *.webp   binary
 *.woff2  binary
 
+.bash*   diff=bash
 *.css    diff=css
 *.html   diff=html
 *.md     diff=markdown
 *.mdx    diff=markdown
+*.php    diff=php
+*.py     diff=python
 *.sh     diff=bash
 
 # GitHub Linguist detection
 # https://github.com/github-linguist/linguist/blob/master/docs/overrides.md
-.arclint linguist-language=json
-.gitaliases linguist-language=gitconfig
-.yamllint linguist-language=yaml
+.arclint     linguist-language=json
+.gitaliases  linguist-language=gitconfig
+.yamllint    linguist-language=yaml
+default.git* linguist-language=gitconfig

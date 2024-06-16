@@ -1,2 +1,3 @@
 LICENSE
-node_modules
+node_modules/
+.pinterest-linters/

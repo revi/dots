@@ -1,3 +1,4 @@
 {
-  "phabricator.uri": "https://issuetracker.revi.xyz"
+  "phabricator.uri": "https://issuetracker.revi.xyz",
+  "load": [".pinterest-linters"]
 }

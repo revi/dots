@@ -1,7 +1,5 @@
 {
-  "exclude": [
-    "(^package-lock.json$)"
-  ],
+  "exclude": ["(^package-lock.json$)"],
   "linters": {
     "chmod": {
       "type": "chmod"
@@ -11,12 +9,7 @@
     },
     "jshint": {
       "type": "jshint",
-      "include": [
-        "(\\.cjs$)",
-        "(\\.js$)",
-        "(\\.jsx$)",
-        "(\\.mjs$)"
-      ],
+      "include": ["(\\.cjs$)", "(\\.js$)", "(\\.jsx$)", "(\\.mjs$)"],
       "jshint.jshintrc": ".jshint.json"
     },
     "json": {
@@ -40,10 +33,7 @@
     },
     "text": {
       "type": "text",
-      "exclude": [
-        "(^.gitignore$)",
-        "(\\.md$)"
-      ],
+      "exclude": ["(^.gitignore$)", "(\\.md$)"],
       "text.max-line-length": 80,
       "severity": {
         "1": "autofix",
@@ -54,16 +44,17 @@
     },
     "text-markdown": {
       "type": "text",
-      "include": [
-        "(^.gitignore$)",
-        "(\\.md$)"
-      ],
+      "include": ["(^.gitignore$)", "(\\.md$)"],
       "severity": {
         "1": "autofix",
         "2": "advice",
         "3": "disabled",
         "5": "disabled"
       }
+    },
+    "yaml lint": {
+      "type": "yamllint",
+      "include": ["(\\.yaml$)", "(\\.yml$)", "(^.yamllint$)"]
     }
   }
 }
