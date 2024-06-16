@@ -1,0 +1,25 @@
+---
+name: JSON Lint
+on:
+  push:
+    paths:
+      - '**.json'
+      - '.arc*'
+      - '**.sublime-settings'
+  pull_request:
+    paths:
+      - '**.json'
+  merge_group:
+  workflow_dispatch:
+
+jobs:
+  jsonlint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout'
+        uses: actions/checkout@v4
+      - name: Run JSON Lint
+        env:
+          REPORT_ONLY: true
+          SHOW_ERRORS: true
+        run: bash <(curl -s https://raw.githubusercontent.com/CICDToolbox/json-lint/master/pipeline.sh)

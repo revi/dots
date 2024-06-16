@@ -14,9 +14,10 @@ on:
   workflow_dispatch:
 
 jobs:
-  lint-everything:
+  yaml-lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: 'Checkout'
+        uses: actions/checkout@v4
       - name: yaml-lint
         uses: ibiqlik/action-yamllint@v3

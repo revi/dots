@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "*.sublime-settings": "jsonc",
+    ".gitaliases": "ignore"
+  }
+}

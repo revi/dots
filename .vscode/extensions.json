@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "avive.arcanist",
+    "christian-kohler.npm-intellisense",
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "github.vscode-github-actions"
+  ]
+}
