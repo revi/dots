@@ -1,0 +1,197 @@
+{
+  "buckets": [
+    {
+      "Name": "main",
+      "Source": "https://github.com/ScoopInstaller/Main",
+      "Updated": "2024-06-18T13:27:57+09:00",
+      "Manifests": 1327
+    },
+    {
+      "Name": "java",
+      "Source": "https://github.com/ScoopInstaller/Java",
+      "Updated": "2024-06-09T01:19:27+09:00",
+      "Manifests": 280
+    }
+  ],
+  "config": {
+    "scoop_branch": "master",
+    "scoop_repo": "https://github.com/ScoopInstaller/Scoop"
+  },
+  "apps": [
+    {
+      "Info": "",
+      "Name": "1password-cli",
+      "Version": "2.29.0",
+      "Updated": "2024-05-23T12:52:37.9576565+09:00",
+      "Source": "main"
+    },
+    {
+      "Info": "",
+      "Name": "7zip",
+      "Version": "24.06",
+      "Updated": "2024-05-27T20:42:46.92965+09:00",
+      "Source": "main"
+    },
+    {
+      "Info": "",
+      "Name": "bazel",
+      "Version": "7.2.0",
+      "Updated": "2024-06-17T16:57:24.2848121+09:00",
+      "Source": "main"
+    },
+    {
+      "Info": "",
+      "Name": "cloudflared",
+      "Version": "2024.6.0",
+      "Updated": "2024-06-04T12:02:29.50008+09:00",
+      "Source": "main"
+    },
+    {
+      "Info": "",
+      "Name": "curl",
+      "Version": "8.8.0_2",
+      "Updated": "2024-06-14T00:19:52.0613415+09:00",
+      "Source": "main"
+    },
+    {
+      "Info": "",
+      "Name": "dark",
+      "Version": "3.14",
+      "Updated": "2024-04-05T16:40:25.3220604+09:00",
+      "Source": "main"
+    },
+    {
+      "Info": "",
+      "Name": "deno",
+      "Version": "1.44.2",
+      "Updated": "2024-06-14T00:19:32.6623953+09:00",
+      "Source": "main"
+    },
+    {
+      "Info": "",
+      "Name": "exiftool",
+      "Version": "12.87",
+      "Updated": "2024-06-14T16:55:30.9701135+09:00",
+      "Source": "main"
+    },
+    {
+      "Info": "",
+      "Name": "gh",
+      "Version": "2.51.0",
+      "Updated": "2024-06-14T16:55:35.4179018+09:00",
+      "Source": "main"
+    },
+    {
+      "Info": "",
+      "Name": "git",
+      "Version": "2.45.2",
+      "Updated": "2024-06-04T12:03:16.866857+09:00",
+      "Source": "main"
+    },
+    {
+      "Info": "",
+      "Name": "git-lfs",
+      "Version": "3.5.1",
+      "Updated": "2024-06-08T15:16:07.5460798+09:00",
+      "Source": "main"
+    },
+    {
+      "Info": "",
+      "Name": "go",
+      "Version": "1.22.4",
+      "Updated": "2024-06-11T19:12:55.832314+09:00",
+      "Source": "main"
+    },
+    {
+      "Info": "",
+      "Name": "helm",
+      "Version": "3.15.2",
+      "Updated": "2024-06-13T17:00:10.2855045+09:00",
+      "Source": "main"
+    },
+    {
+      "Info": "",
+      "Name": "hugo-extended",
+      "Version": "0.127.0",
+      "Updated": "2024-06-08T11:49:24.1749237+09:00",
+      "Source": "main"
+    },
+    {
+      "Info": "",
+      "Name": "kubectl",
+      "Version": "1.30.2",
+      "Updated": "2024-06-12T15:30:58.6941828+09:00",
+      "Source": "main"
+    },
+    {
+      "Info": "",
+      "Name": "msys2",
+      "Version": "2024-05-07",
+      "Updated": "2024-06-17T16:59:51.7749911+09:00",
+      "Source": "main"
+    },
+    {
+      "Info": "",
+      "Name": "nano",
+      "Version": "7.2-22.1",
+      "Updated": "2024-04-02T19:54:11.8396061+09:00",
+      "Source": "main"
+    },
+    {
+      "Info": "",
+      "Name": "nodejs-lts",
+      "Version": "20.14.0",
+      "Updated": "2024-05-29T21:48:48.3466108+09:00",
+      "Source": "main"
+    },
+    {
+      "Info": "",
+      "Name": "opentofu",
+      "Version": "1.7.2",
+      "Updated": "2024-06-04T12:03:25.316745+09:00",
+      "Source": "main"
+    },
+    {
+      "Info": "",
+      "Name": "php",
+      "Version": "8.3.8",
+      "Updated": "2024-06-08T11:49:53.3941791+09:00",
+      "Source": "main"
+    },
+    {
+      "Info": "",
+      "Name": "python",
+      "Version": "3.12.4",
+      "Updated": "2024-06-08T11:50:41.9120766+09:00",
+      "Source": "main"
+    },
+    {
+      "Info": "",
+      "Name": "rclone",
+      "Version": "1.67.0",
+      "Updated": "2024-06-15T14:35:09.8728847+09:00",
+      "Source": "main"
+    },
+    {
+      "Info": "",
+      "Name": "speedtest-cli",
+      "Version": "1.2.0",
+      "Updated": "2024-06-04T16:00:33.7745416+09:00",
+      "Source": "main"
+    },
+    {
+      "Info": "",
+      "Name": "temurin11-jdk",
+      "Version": "11.0.23-9",
+      "Updated": "2024-06-17T16:57:14.8259993+09:00",
+      "Source": "java"
+    },
+    {
+      "Info": "",
+      "Name": "yarn",
+      "Version": "1.22.22",
+      "Updated": "2024-05-26T14:47:06.5069409+09:00",
+      "Source": "main"
+    }
+  ]
+}
