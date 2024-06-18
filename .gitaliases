@@ -31,7 +31,10 @@
   diffs = diff --staged
   fa = fetch --all
   fo = fetch origin
+  fpush = push --force-with-lease
   fup = fetch upstream
+  gon = !git fup && git comn && git usyncn
+  gor = !git fup && git comr && git usyncr
   graph = log --pretty=format:\"%h %s\" --graph
   osync = !echo 'ERROR: use osyncr for master, and osyncm for main.'
   osyncn = rebase origin/main
@@ -40,6 +43,8 @@
   pon = push origin main
   por = push origin master
   prod = !git checkout prod && git rebase origin/master && git push origin prod && git checkout master
+  spop = stash pop
+  sshow = show --show-signature
   st = status
   staash = stash -a
   usync = !echo 'ERROR: use usyncr for master, and usyncn for main.'

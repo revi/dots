@@ -36,8 +36,8 @@
   defaultBranch = master
 [log]
   date = iso8601
-[pretty]
-  show = fuller
+[push]
+  gpgSign = if-asked
 [rerere]
   enabled = true
   autoUpdate = true
@@ -48,5 +48,6 @@
   smtpencryption = ssl
   smtpserverport = 465
   smtpAuth = 'PLAIN'
+  smtpReloginDelay = 60
 [tag]
   forceSignAnnotated = true
