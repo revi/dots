@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Copyright 2024 Hong Yongmin <https://revi.xyz>
 
 # Licensed under the Apache License, Version 2.0 (the "License");

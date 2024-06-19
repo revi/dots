@@ -1,4 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# Copyright 2016 Hong Yongmin <https://revi.xyz>
+# SPDX-License-Identifier: Apache-2.0
 cd ~/sandbox
 git pull origin master
 cd /var/www/phorge/phorge
