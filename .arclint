@@ -20,7 +20,8 @@
         "(^.arcunit$)",
         "(\\.json$)",
         "(\\.sublime-settings$)"
-      ]
+      ],
+      "exclude": ["(^.vscode/\\.json$)", "(^vscode.json$)"]
     },
     "merge-conflict": {
       "type": "merge-conflict"

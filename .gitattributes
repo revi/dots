@@ -23,7 +23,9 @@
 
 # GitHub Linguist detection
 # https://github.com/github-linguist/linguist/blob/master/docs/overrides.md
-.arclint     linguist-language=json
-.gitaliases  linguist-language=gitconfig
-.yamllint    linguist-language=yaml
-default.git* linguist-language=gitconfig
+.vscode/*.json linguist-language=jsonc
+.arclint       linguist-language=json
+.gitaliases    linguist-language=gitconfig
+.yamllint      linguist-language=yaml
+default.git*   linguist-language=gitconfig
+vscode.json    linguist-language=jsonc

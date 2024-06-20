@@ -1,0 +1,60 @@
+{
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "discord.idleTimeout": 600,
+  "editor.fontFamily": "'0xProto', 'IBM Plex Mono', 'D2Coding', Consolas, 'Courier New', monospace",
+  "editor.tabSize": 2,
+  "editor.wordBreak": "keepAll",
+  "files.associations": {
+    ".arc(config|lint|rc|unit)": "json",
+    "*.hujson": "jsonc",
+    ".imgbotconfig": "json",
+    ".yamllint": "yaml"
+  },
+  "files.autoSave": "afterDelay",
+  "git.allowForcePush": true,
+  "git.alwaysSignOff": true,
+  "git.autofetch": true,
+  "gitlens.autolinks": [
+    {
+      "prefix": "D",
+      "alphanumeric": true,
+      "ignoreCase": false,
+      "url": "https://issuetrakcer.revi.xyz/D<num>"
+    },
+    {
+      "prefix": "T",
+      "url": "https://issuetrakcer.revi.xyz/T<num>",
+      "alphanumeric": true
+    }
+  ],
+  "gitlens.currentLine.format": "${author, }${agoOrDate}${ • message|52?}${ • changesShort}",
+  "gitlens.defaultDateFormat": "YYYY-MM-DDTHH:mm:ss (ZZ)",
+  "gitlens.defaultDateShortFormat": "YY/MM/DD",
+  "gitlens.defaultTimeFormat": "HH:mm",
+  "gitlens.statusBar.format": "${author}, ${agoOrDate} (${changesShort})",
+  "github.copilot.editor.enableAutoCompletions": true,
+  "github.copilot.chat.localeOverride": "en",
+  "graphite.commandPath": "gt",
+  "json.schemas": [],
+  "markdownlint.config": {
+    "MD025": false
+  },
+  "merge-conflict.autoNavigateNextConflict.enabled": true,
+  "npm-intellisense.scanDevDependencies": true,
+  "security.workspace.trust.enabled": false,
+  "telemetry.telemetryLevel": "error",
+  "update.mode": "manual",
+  "workbench.colorTheme": "Solarized Light"
+}
