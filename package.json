@@ -1,10 +1,10 @@
 {
   "$schema": "https://json.schemastore.org/package.json",
   "devDependencies": {
-    "@eslint/js": "9.5.0",
+    "@eslint/js": "9.6.0",
     "@revi/eslint-config": "0.0.5",
     "@revi/prettier-config": "0.1.1",
-    "eslint": "9.5.0",
+    "eslint": "9.6.0",
     "eslint-config-prettier": "9.1.0",
     "jshint": "2.13.6",
     "prettier": "3.3.2"
