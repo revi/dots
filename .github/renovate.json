@@ -1,0 +1,106 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:best-practices",
+    ":gitSignOff",
+    ":pinSkipCi",
+    ":prConcurrentLimit20",
+    ":prHourlyLimit4",
+    "security:openssf-scorecard",
+    ":semanticCommits",
+    ":semanticCommitTypeAll(CI)",
+    ":separateMajorReleases",
+    ":timezone(Asia/Seoul)"
+  ],
+  "assignAutomerge": true,
+  "automerge": true,
+  "platformAutomerge": true,
+  "azure-pipelines": {
+    "enabled": true
+  },
+  "assignees": ["revi"],
+  "git-submodules": {
+    "enabled": true,
+    "versioning": "git"
+  },
+  "internalChecksFilter": "strict",
+  "labels": ["dependencies"],
+  "npmrcMerge": true,
+  "osvVulnerabilityAlerts": true,
+  "postUpdateOptions": ["npmDedupe"],
+  "schedule": ["* */4 * * *"],
+  "packageRules": [
+    {
+      "matchDatasources": ["npm"],
+      "matchPackageNames": ["eslint", "jshint", "prettier", "typescript"],
+      "matchPackagePatterns": ["^@eslint/", "^eslint-", "^@types/"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true,
+      "platformAutomerge": true,
+      "minimumReleaseAge": "3 days",
+      "schedule": ["* */4 * * *"],
+      "timezone": "Asia/Seoul",
+      "labels": ["dependencies", "javascript"],
+      "groupName": "linters"
+    },
+    {
+      "matchDatasources": ["npm"],
+      "matchPackageNames": ["renovate"],
+      "schedule": ["before 4am on monday"],
+      "minimumReleaseAge": "3 days",
+      "labels": ["dependencies", "javascript"],
+      "groupName": "update renovate weekly (updates too often)",
+      "groupSlug": "weekly-update-renovate"
+    },
+    {
+      "matchDatasources": ["npm"],
+      "matchUpdateTypes": ["patch"],
+      "automerge": true,
+      "platformAutomerge": true,
+      "minimumReleaseAge": "3 days",
+      "schedule": ["* */4 * * *"],
+      "timezone": "Asia/Seoul",
+      "labels": ["dependencies", "javascript"],
+      "groupName": "npm patch upgrades"
+    },
+    {
+      "matchDatasources": ["npm"],
+      "matchPackagePatterns": ["^@revi/"],
+      "matchUpdateTypes": ["major", "minor", "patch"],
+      "automerge": true,
+      "platformAutomerge": true,
+      "minimumReleaseAge": "1 hour",
+      "schedule": ["* */4 * * *"],
+      "timezone": "Asia/Seoul",
+      "labels": ["dependencies", "javascript"],
+      "prPriority": 9,
+      "groupName": "internal-deps"
+    },
+    {
+      "matchDatasources": ["github-actions"],
+      "automerge": true,
+      "platformAutomerge": true,
+      "schedule": ["* */4 * * *"],
+      "timezone": "Asia/Seoul",
+      "labels": ["dependencies", "github_actions"],
+      "groupName": "github actions workflows upgrades"
+    },
+    {
+      "matchSourceUrlPrefixes": ["https://github.com"],
+      "prBodyDefinitions": {
+        "OpenSSF": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/{{sourceRepo}}/badge)](https://securityscorecards.dev/viewer/?uri=github.com/{{sourceRepo}})"
+      },
+      "prBodyColumns": [
+        "Package",
+        "Type",
+        "Change",
+        "Pending",
+        "Age",
+        "Adoption",
+        "Passing",
+        "Confidence",
+        "OpenSSF"
+      ]
+    }
+  ]
+}
