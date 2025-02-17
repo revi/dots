@@ -4,10 +4,10 @@
     "@eslint/js": "9.20.0",
     "@revi/eslint-config": "0.0.22",
     "@revi/prettier-config": "0.2.4",
-    "eslint": "9.20.0",
+    "eslint": "9.20.1",
     "eslint-config-prettier": "10.0.1",
     "jshint": "2.13.6",
-    "prettier": "3.5.0"
+    "prettier": "3.5.1"
   },
   "prettier": "@revi/prettier-config",
   "name": "@revi/dots",
