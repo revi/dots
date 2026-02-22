@@ -32,8 +32,15 @@
   "packageRules": [
     {
       "matchDatasources": ["npm"],
-      "matchPackageNames": ["eslint", "jshint", "prettier", "typescript"],
-      "matchPackagePatterns": ["^@eslint/", "^eslint-", "^@types/"],
+      "matchPackageNames": [
+        "eslint",
+        "jshint",
+        "prettier",
+        "typescript",
+        "/^@eslint//",
+        "/^eslint-/",
+        "/^@types//"
+      ],
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": true,
       "platformAutomerge": true,
@@ -65,7 +72,6 @@
     },
     {
       "matchDatasources": ["npm"],
-      "matchPackagePatterns": ["^@revi/"],
       "matchUpdateTypes": ["major", "minor", "patch"],
       "automerge": true,
       "platformAutomerge": true,
@@ -74,7 +80,8 @@
       "timezone": "Asia/Seoul",
       "labels": ["dependencies", "javascript"],
       "prPriority": 9,
-      "groupName": "internal-deps"
+      "groupName": "internal-deps",
+      "matchPackageNames": ["/^@revi//"]
     },
     {
       "matchDatasources": ["github-actions"],
@@ -86,7 +93,6 @@
       "groupName": "github actions workflows upgrades"
     },
     {
-      "matchSourceUrlPrefixes": ["https://github.com"],
       "prBodyDefinitions": {
         "OpenSSF": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/{{sourceRepo}}/badge)](https://securityscorecards.dev/viewer/?uri=github.com/{{sourceRepo}})"
       },
@@ -100,7 +106,8 @@
         "Passing",
         "Confidence",
         "OpenSSF"
-      ]
+      ],
+      "matchSourceUrls": ["https://github.com{/,}**"]
     }
   ]
 }
