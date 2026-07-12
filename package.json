@@ -7,7 +7,7 @@
     "eslint": "10.6.0",
     "eslint-config-prettier": "10.1.8",
     "jshint": "2.13.6",
-    "prettier": "3.9.4"
+    "prettier": "3.9.5"
   },
   "prettier": "@revi/prettier-config",
   "name": "@revi/dots",
